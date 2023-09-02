@@ -1,31 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"> <!-- Set character encoding to UTF-8 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Specify viewport settings for responsiveness -->
-    <title>Conscious Steps Scenario and Awareness Generator</title> <!-- Set the title of the webpage -->
-    <link rel="stylesheet" href="css/style.css"> <!-- Link to an external CSS stylesheet for styling -->
     <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Page Title</title>
-
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    integrity="sha384-KyZXEAg3QhqLMpG8r+ft5FAcwcOd56fOz6Hjo+Yy/tI5vP5c/rXn3F5w5Uv6tj5lM"
-    crossorigin="anonymous"
-  />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conscious Steps Scenario and Awareness Generator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+ft5FAcwcOd56fOz6Hjo+Yy/tI5vP5c/rXn3F5w5Uv6tj5lM"
+        crossorigin="anonymous"
+    />
 </head>
 <body>
-    <div id="container"> <!-- Main container for webpage content -->
-        <h1>Conscious Steps: Board Game Scenario and Awareness Generator</h1> <!-- Main heading -->
-        <button id="scenarioBtn">Scenario</button> <!-- Button to generate random scenarios -->
-        <button id="awarenessBtn">Awareness</button> <!-- Button to generate random awareness messages -->
-        <div id="result"></div> <!-- Display area for generated content -->
+    <div id="container">
+        <h1>Conscious Steps: Board Game Scenario and Awareness Generator</h1>
+        <button id="scenarioBtn">Scenario</button>
+        <button id="awarenessBtn">Awareness</button>
+        <div id="result"></div>
     </div>
 
     <script>
-         const scenarios = [
+          const scenarios = [
             "Your older sibling offers you a brownie that they say tastes good. They won't tell you what's in it. What would you do?",
             "You're at a friend's house, and they pass you a joint to smoke. What do you decide?",
             "You attend a social gathering, and someone offers you a vaping pen with a marijuana cartridge. What's your choice?",
@@ -69,38 +65,39 @@
             const randomAwarenessText = getRandomElementFromArray(awarenessTexts);
             result.textContent = `Awareness: ${randomAwarenessText}`;
         });
-      </script>
-        <div class="wrapper">
-  <a href="https://facebook.com" target="_blank" style="color:#3b5999;">
-    <div class="icon facebook">
-      <div class="tooltip">Facebook</div>
-      <span><i class="fab fa-facebook-f"></i></span>
+    </script>
+
+    <div class="wrapper">
+        <a href="https://facebook.com" target="_blank" style="color:#3b5999;">
+            <div class="icon facebook">
+                <div class="tooltip">Facebook</div>
+                <span><i class="fab fa-facebook-f"></i></span>
+            </div>
+        </a>
+        <a href="https://twitter.com" target="_blank" style="color:#46c1f6;">
+            <div class="icon twitter">
+                <div class="tooltip">Twitter</div>
+                <span><i class="fab fa-twitter"></i></span>
+            </div>
+        </a>
+        <a href="https://instagram.com" target="_blank">
+            <div class="icon instagram">
+                <div class="tooltip">Instagram</div>
+                <span><i class="fab fa-instagram" style="background:linear-gradient(to bottom right,#dd2a7b,#f58529);-webkit-background-clip:text;-webkit-text-fill-color:transparent;"></i></span>
+            </div>
+        </a>
+        <a href="https://github.com" target="_blank" style="color:#333333;">
+            <div class="icon github">
+                <div class="tooltip">Github</div>
+                <span><i class="fab fa-github"></i></span>
+            </div>
+        </a>
+        <a href="https://youtube.com" target="_blank" style="color:#de463b;">
+            <div class="icon youtube">
+                <div class="tooltip">Youtube</div>
+                <span><i class="fab fa-youtube"></i></span>
+            </div>
+        </a>
     </div>
-  </a>
-  <a href="https://twitter.com" target="_blank" style="color:#46c1f6;">
-    <div class="icon twitter">
-      <div class="tooltip">Twitter</div>
-      <span><i class="fab fa-twitter"></i></span>
-    </div>
-  </a>
-  <a href="https://instagram.com" target="_blank">
-    <div class="icon instagram">
-      <div class="tooltip">Instagram</div>
-      <span><i class="fab fa-instagram" style="background:linear-gradient(to bottom right,#dd2a7b,#f58529);-webkit-background-clip:text;-webkit-text-fill-color:transparent;"></i></span>
-    </div>
-  </a>
-  <a href="https://github.com" target="_blank" style="color:#333333;">
-    <div class="icon github">
-      <div class="tooltip">Github</div>
-      <span><i class="fab fa-github"></i></span>
-    </div>
-  </a>
-  <a href="https://youtube.com" target="_blank" style="color:#de463b;">
-    <div class="icon youtube">
-      <div class="tooltip">Youtube</div>
-      <span><i class="fab fa-youtube"></i></span>
-    </div>
-  </a>
-</div>
 </body>
 </html>
