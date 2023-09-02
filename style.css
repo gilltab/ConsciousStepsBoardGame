@@ -1,0 +1,52 @@
+body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        h1 {
+            font-family: Copperplate, sans-serif; 
+            color: #333;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        button {
+            font-size: 18px;
+            margin: 10px;
+            padding: 15px 30px; /* Larger buttons */
+            cursor: pointer;
+            background-color: #3498db;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        button:hover {
+            background-color: #2980b9;
+            transform: scale(1.05);
+        }
+        #result {
+            font-size: 24px;
+            margin-top: 20px;
+            color: #333;
+            animation: fadeIn 0.5s ease;
+        }
+        /* Additional styles for improved aesthetics */
+        #container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        #scenarioBtn {
+            background-color: #e8ca76;
+        }
+        #awarenessBtn {
+            background-color: #f5a6ce;
+        }
